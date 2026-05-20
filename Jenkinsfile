@@ -20,29 +20,53 @@ pipeline {
 
     stages {
 
-        // =========================
-        // CLEAN
-        // =========================
-        stage('Clean Workspace') {
-
-            steps {
-                cleanWs()
-            }
-        }
-
-        // =========================
-        // CLONE
-        // =========================
-        stage('Clone Repository') {
+        // ============================================
+        // SCM CHECKOUT INFO
+        // ============================================
+        stage('Repository Ready') {
 
             steps {
 
-                echo "Repository already cloned by Jenkins SCM."
+                echo "Repository already checked out by Jenkins SCM."
+
+                bat """
+                echo Current Workspace:
+                cd
+
+                echo Listing Root Files:
+                dir
+                """
             }
         }
-      // =========================
-        // JAVA BUILD
-        // =========================
+
+        // ============================================
+        // VERIFY STRUCTURE
+        // ============================================
+        stage('Verify Repository Structure') {
+
+            steps {
+
+                bat """
+                echo VERIFYING JAVA STRUCTURE
+
+                dir Java
+
+                dir Java\\JavaFullstackEcommerce
+
+                echo VERIFYING CPP STRUCTURE
+
+                dir Cpp
+
+                echo VERIFYING PARSER
+
+                dir parser
+                """
+            }
+        }
+
+        // ============================================
+        // JAVA BUILD + TEST + COVERAGE
+        // ============================================
         stage('Java Build & Coverage') {
 
             steps {
@@ -50,15 +74,38 @@ pipeline {
                 dir("${JAVA_PROJECT}") {
 
                     bat """
+                    echo CURRENT DIRECTORY
+                    cd
+
+                    echo VERIFY POM
+                    dir pom.xml
+
                     mvn clean verify
                     """
                 }
             }
         }
 
-        // =========================
-        // JAVA SONAR
-        // =========================
+        // ============================================
+        // VERIFY JACOCO OUTPUT
+        // ============================================
+        stage('Verify Java Coverage Artifacts') {
+
+            steps {
+
+                bat """
+                echo VERIFYING JACOCO FILES
+
+                dir Java\\JavaFullstackEcommerce\\target\\site\\jacoco
+
+                dir Java\\JavaFullstackEcommerce\\target\\surefire-reports
+                """
+            }
+        }
+
+        // ============================================
+        // JAVA SONARCLOUD
+        // ============================================
         stage('Java SonarCloud Analysis') {
 
             steps {
@@ -80,9 +127,9 @@ pipeline {
             }
         }
 
-        // =========================
-        // CPP BUILD
-        // =========================
+        // ============================================
+        // CPP BUILD + TEST + COVERAGE
+        // ============================================
         stage('CPP Build & Coverage') {
 
             steps {
@@ -90,6 +137,9 @@ pipeline {
                 dir("${CPP_PROJECT}") {
 
                     bat """
+                    echo CURRENT CPP DIRECTORY
+                    cd
+
                     if exist build rmdir /s /q build
 
                     mkdir build
@@ -110,15 +160,30 @@ pipeline {
             }
         }
 
-        // =========================
-        // PARSER
-        // =========================
+        // ============================================
+        // VERIFY CPP ARTIFACTS
+        // ============================================
+        stage('Verify CPP Coverage Artifacts') {
+
+            steps {
+
+                bat """
+                echo VERIFYING CPP COVERAGE
+
+                dir Cpp\\build
+                """
+            }
+        }
+
+        // ============================================
+        // GENERATE UNIFIED JSON
+        // ============================================
         stage('Generate Unified JSON') {
 
             steps {
 
                 bat """
-                python ${PYTHON_PARSER} ^
+                python %PYTHON_PARSER% ^
                 --jacoco_xml Java/JavaFullstackEcommerce/target/site/jacoco/jacoco.xml ^
                 --surefire_dir Java/JavaFullstackEcommerce/target/surefire-reports ^
                 --gcovr_xml Cpp/build/coverage.xml ^
@@ -128,9 +193,26 @@ pipeline {
             }
         }
 
-        // =========================
-        // ARCHIVE
-        // =========================
+        // ============================================
+        // VERIFY JSON OUTPUT
+        // ============================================
+        stage('Verify Unified JSON') {
+
+            steps {
+
+                bat """
+                echo VERIFYING FINAL JSON
+
+                dir unified_report.json
+
+                type unified_report.json
+                """
+            }
+        }
+
+        // ============================================
+        // ARCHIVE REPORTS
+        // ============================================
         stage('Archive Reports') {
 
             steps {
@@ -138,6 +220,7 @@ pipeline {
                 archiveArtifacts artifacts: '''
                 unified_report.json,
                 Java/JavaFullstackEcommerce/target/site/jacoco/**,
+                Java/JavaFullstackEcommerce/target/surefire-reports/**,
                 Cpp/build/coverage.xml,
                 Cpp/build/coverage.json
                 ''',
