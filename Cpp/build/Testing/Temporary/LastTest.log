@@ -1,0 +1,1275 @@
+Start testing: May 20 16:42 India Standard Time
+----------------------------------------------------------
+1/47 Testing: ThreadState.InitiallyAvailable
+1/47 Test: ThreadState.InitiallyAvailable
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ThreadState.InitiallyAvailable" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ThreadState.InitiallyAvailable" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadState.InitiallyAvailable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadState
+[ RUN      ] ThreadState.InitiallyAvailable
+[       OK ] ThreadState.InitiallyAvailable (0 ms)
+[----------] 1 test from ThreadState (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadState.InitiallyAvailable" end time: May 20 16:42 India Standard Time
+"ThreadState.InitiallyAvailable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/47 Testing: ThreadState.SetFreeMarksDestroyed
+2/47 Test: ThreadState.SetFreeMarksDestroyed
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ThreadState.SetFreeMarksDestroyed" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ThreadState.SetFreeMarksDestroyed" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadState.SetFreeMarksDestroyed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadState
+[ RUN      ] ThreadState.SetFreeMarksDestroyed
+[       OK ] ThreadState.SetFreeMarksDestroyed (0 ms)
+[----------] 1 test from ThreadState (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadState.SetFreeMarksDestroyed" end time: May 20 16:42 India Standard Time
+"ThreadState.SetFreeMarksDestroyed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/47 Testing: AdminFixture.StockRejectsUnknownProduct
+3/47 Test: AdminFixture.StockRejectsUnknownProduct
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.StockRejectsUnknownProduct" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.StockRejectsUnknownProduct" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.StockRejectsUnknownProduct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.StockRejectsUnknownProduct
+[       OK ] AdminFixture.StockRejectsUnknownProduct (26 ms)
+[----------] 1 test from AdminFixture (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.StockRejectsUnknownProduct" end time: May 20 16:42 India Standard Time
+"AdminFixture.StockRejectsUnknownProduct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/47 Testing: AdminFixture.StockRestockHappyPath
+4/47 Test: AdminFixture.StockRestockHappyPath
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.StockRestockHappyPath" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.StockRestockHappyPath" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.StockRestockHappyPath
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.StockRestockHappyPath
+[       OK ] AdminFixture.StockRestockHappyPath (11 ms)
+[----------] 1 test from AdminFixture (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.StockRestockHappyPath" end time: May 20 16:42 India Standard Time
+"AdminFixture.StockRestockHappyPath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/47 Testing: AdminFixture.StockUpdatePriceBranch
+5/47 Test: AdminFixture.StockUpdatePriceBranch
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.StockUpdatePriceBranch" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.StockUpdatePriceBranch" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.StockUpdatePriceBranch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.StockUpdatePriceBranch
+[       OK ] AdminFixture.StockUpdatePriceBranch (20 ms)
+[----------] 1 test from AdminFixture (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (21 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.StockUpdatePriceBranch" end time: May 20 16:42 India Standard Time
+"AdminFixture.StockUpdatePriceBranch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/47 Testing: AdminFixture.StockDefaultBranchNoOp
+6/47 Test: AdminFixture.StockDefaultBranchNoOp
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.StockDefaultBranchNoOp" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.StockDefaultBranchNoOp" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.StockDefaultBranchNoOp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.StockDefaultBranchNoOp
+[       OK ] AdminFixture.StockDefaultBranchNoOp (6 ms)
+[----------] 1 test from AdminFixture (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.StockDefaultBranchNoOp" end time: May 20 16:42 India Standard Time
+"AdminFixture.StockDefaultBranchNoOp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/47 Testing: AdminFixture.StockRestockRejectedWhenCashTooLow
+7/47 Test: AdminFixture.StockRestockRejectedWhenCashTooLow
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.StockRestockRejectedWhenCashTooLow" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.StockRestockRejectedWhenCashTooLow" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.StockRestockRejectedWhenCashTooLow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.StockRestockRejectedWhenCashTooLow
+[       OK ] AdminFixture.StockRestockRejectedWhenCashTooLow (20 ms)
+[----------] 1 test from AdminFixture (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (21 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.StockRestockRejectedWhenCashTooLow" end time: May 20 16:42 India Standard Time
+"AdminFixture.StockRestockRejectedWhenCashTooLow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/47 Testing: AdminFixture.AccountsThroughHome
+8/47 Test: AdminFixture.AccountsThroughHome
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.AccountsThroughHome" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.AccountsThroughHome" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.AccountsThroughHome
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.AccountsThroughHome
+[       OK ] AdminFixture.AccountsThroughHome (21 ms)
+[----------] 1 test from AdminFixture (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (22 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.AccountsThroughHome" end time: May 20 16:42 India Standard Time
+"AdminFixture.AccountsThroughHome" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/47 Testing: AdminFixture.ViewCustomerFile
+9/47 Test: AdminFixture.ViewCustomerFile
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.ViewCustomerFile" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.ViewCustomerFile" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.ViewCustomerFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.ViewCustomerFile
+[       OK ] AdminFixture.ViewCustomerFile (20 ms)
+[----------] 1 test from AdminFixture (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.ViewCustomerFile" end time: May 20 16:42 India Standard Time
+"AdminFixture.ViewCustomerFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/47 Testing: AdminFixture.AddEmployeeFlow
+10/47 Test: AdminFixture.AddEmployeeFlow
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.AddEmployeeFlow" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.AddEmployeeFlow" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.AddEmployeeFlow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.AddEmployeeFlow
+[       OK ] AdminFixture.AddEmployeeFlow (8 ms)
+[----------] 1 test from AdminFixture (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.AddEmployeeFlow" end time: May 20 16:42 India Standard Time
+"AdminFixture.AddEmployeeFlow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/47 Testing: AdminFixture.SearchCustomerNotFound
+11/47 Test: AdminFixture.SearchCustomerNotFound
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.SearchCustomerNotFound" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.SearchCustomerNotFound" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.SearchCustomerNotFound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.SearchCustomerNotFound
+[       OK ] AdminFixture.SearchCustomerNotFound (7 ms)
+[----------] 1 test from AdminFixture (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.SearchCustomerNotFound" end time: May 20 16:42 India Standard Time
+"AdminFixture.SearchCustomerNotFound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/47 Testing: AdminFixture.SearchEmployeeByCnicFound
+12/47 Test: AdminFixture.SearchEmployeeByCnicFound
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.SearchEmployeeByCnicFound" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.SearchEmployeeByCnicFound" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.SearchEmployeeByCnicFound
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.SearchEmployeeByCnicFound
+[       OK ] AdminFixture.SearchEmployeeByCnicFound (23 ms)
+[----------] 1 test from AdminFixture (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (24 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.SearchEmployeeByCnicFound" end time: May 20 16:42 India Standard Time
+"AdminFixture.SearchEmployeeByCnicFound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/47 Testing: AdminFixture.DeleteCustomerRecord
+13/47 Test: AdminFixture.DeleteCustomerRecord
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.DeleteCustomerRecord" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.DeleteCustomerRecord" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.DeleteCustomerRecord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.DeleteCustomerRecord
+[       OK ] AdminFixture.DeleteCustomerRecord (74 ms)
+[----------] 1 test from AdminFixture (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (75 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.DeleteCustomerRecord" end time: May 20 16:42 India Standard Time
+"AdminFixture.DeleteCustomerRecord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/47 Testing: AdminFixture.BalanceUpdateTrue
+14/47 Test: AdminFixture.BalanceUpdateTrue
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.BalanceUpdateTrue" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.BalanceUpdateTrue" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.BalanceUpdateTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.BalanceUpdateTrue
+[       OK ] AdminFixture.BalanceUpdateTrue (27 ms)
+[----------] 1 test from AdminFixture (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.BalanceUpdateTrue" end time: May 20 16:42 India Standard Time
+"AdminFixture.BalanceUpdateTrue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/47 Testing: AdminFixture.BalanceUpdateFalseWhenUserMissing
+15/47 Test: AdminFixture.BalanceUpdateFalseWhenUserMissing
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.BalanceUpdateFalseWhenUserMissing" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.BalanceUpdateFalseWhenUserMissing" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.BalanceUpdateFalseWhenUserMissing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.BalanceUpdateFalseWhenUserMissing
+[       OK ] AdminFixture.BalanceUpdateFalseWhenUserMissing (13 ms)
+[----------] 1 test from AdminFixture (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.BalanceUpdateFalseWhenUserMissing" end time: May 20 16:42 India Standard Time
+"AdminFixture.BalanceUpdateFalseWhenUserMissing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/47 Testing: AdminFixture.GetActivityCase
+16/47 Test: AdminFixture.GetActivityCase
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.GetActivityCase" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.GetActivityCase" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.GetActivityCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.GetActivityCase
+[       OK ] AdminFixture.GetActivityCase (28 ms)
+[----------] 1 test from AdminFixture (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.GetActivityCase" end time: May 20 16:42 India Standard Time
+"AdminFixture.GetActivityCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/47 Testing: AdminFixture.EndServerCase
+17/47 Test: AdminFixture.EndServerCase
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EndServerCase" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EndServerCase" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EndServerCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EndServerCase
+[       OK ] AdminFixture.EndServerCase (7 ms)
+[----------] 1 test from AdminFixture (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EndServerCase" end time: May 20 16:42 India Standard Time
+"AdminFixture.EndServerCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/47 Testing: AdminFixture.ComplainShortcutExitFromAdminHome
+18/47 Test: AdminFixture.ComplainShortcutExitFromAdminHome
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.ComplainShortcutExitFromAdminHome" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.ComplainShortcutExitFromAdminHome" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.ComplainShortcutExitFromAdminHome
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.ComplainShortcutExitFromAdminHome
+[       OK ] AdminFixture.ComplainShortcutExitFromAdminHome (8 ms)
+[----------] 1 test from AdminFixture (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.ComplainShortcutExitFromAdminHome" end time: May 20 16:42 India Standard Time
+"AdminFixture.ComplainShortcutExitFromAdminHome" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/47 Testing: AdminFixture.EmployeeHomeDefaultThenExit
+19/47 Test: AdminFixture.EmployeeHomeDefaultThenExit
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeHomeDefaultThenExit" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeHomeDefaultThenExit" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeHomeDefaultThenExit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeHomeDefaultThenExit
+ Invalid choice! Press any key to go enter again...
+[       OK ] AdminFixture.EmployeeHomeDefaultThenExit (4 ms)
+[----------] 1 test from AdminFixture (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeHomeDefaultThenExit" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeHomeDefaultThenExit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/47 Testing: AdminFixture.EmployeeLoginBuyExit
+20/47 Test: AdminFixture.EmployeeLoginBuyExit
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeLoginBuyExit" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeLoginBuyExit" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeLoginBuyExit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeLoginBuyExit
+[       OK ] AdminFixture.EmployeeLoginBuyExit (28 ms)
+[----------] 1 test from AdminFixture (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeLoginBuyExit" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeLoginBuyExit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/47 Testing: AdminFixture.EmployeeComplainSeeFalse
+21/47 Test: AdminFixture.EmployeeComplainSeeFalse
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeComplainSeeFalse" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeComplainSeeFalse" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeComplainSeeFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeComplainSeeFalse
+[       OK ] AdminFixture.EmployeeComplainSeeFalse (5 ms)
+[----------] 1 test from AdminFixture (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeComplainSeeFalse" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeComplainSeeFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/47 Testing: AdminFixture.EmployeeComplainSeeTrueAndAnswer
+22/47 Test: AdminFixture.EmployeeComplainSeeTrueAndAnswer
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeComplainSeeTrueAndAnswer" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeComplainSeeTrueAndAnswer" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeComplainSeeTrueAndAnswer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeComplainSeeTrueAndAnswer
+[       OK ] AdminFixture.EmployeeComplainSeeTrueAndAnswer (70 ms)
+[----------] 1 test from AdminFixture (70 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (70 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeComplainSeeTrueAndAnswer" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeComplainSeeTrueAndAnswer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/47 Testing: AdminFixture.EmployeeComplainCaseTwoPending
+23/47 Test: AdminFixture.EmployeeComplainCaseTwoPending
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeComplainCaseTwoPending" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeComplainCaseTwoPending" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeComplainCaseTwoPending
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeComplainCaseTwoPending
+[       OK ] AdminFixture.EmployeeComplainCaseTwoPending (25 ms)
+[----------] 1 test from AdminFixture (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeComplainCaseTwoPending" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeComplainCaseTwoPending" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/47 Testing: AdminFixture.EmployeeComplainInvalidChoice
+24/47 Test: AdminFixture.EmployeeComplainInvalidChoice
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=AdminFixture.EmployeeComplainInvalidChoice" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"AdminFixture.EmployeeComplainInvalidChoice" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdminFixture.EmployeeComplainInvalidChoice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminFixture
+[ RUN      ] AdminFixture.EmployeeComplainInvalidChoice
+ Invalid input!
+[       OK ] AdminFixture.EmployeeComplainInvalidChoice (7 ms)
+[----------] 1 test from AdminFixture (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"AdminFixture.EmployeeComplainInvalidChoice" end time: May 20 16:42 India Standard Time
+"AdminFixture.EmployeeComplainInvalidChoice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/47 Testing: DataFixture.CustomerStartExit
+25/47 Test: DataFixture.CustomerStartExit
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerStartExit" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerStartExit" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerStartExit
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerStartExit
+[       OK ] DataFixture.CustomerStartExit (2 ms)
+[----------] 1 test from DataFixture (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerStartExit" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerStartExit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/47 Testing: DataFixture.CustomerLoginThenExitHome
+26/47 Test: DataFixture.CustomerLoginThenExitHome
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerLoginThenExitHome" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerLoginThenExitHome" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerLoginThenExitHome
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerLoginThenExitHome
+[       OK ] DataFixture.CustomerLoginThenExitHome (24 ms)
+[----------] 1 test from DataFixture (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerLoginThenExitHome" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerLoginThenExitHome" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/47 Testing: DataFixture.CustomerSignupSuccess
+27/47 Test: DataFixture.CustomerSignupSuccess
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerSignupSuccess" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerSignupSuccess" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerSignupSuccess
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerSignupSuccess
+[       OK ] DataFixture.CustomerSignupSuccess (26 ms)
+[----------] 1 test from DataFixture (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerSignupSuccess" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerSignupSuccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/47 Testing: DataFixture.CustomerComplainMenuRoundTrip
+28/47 Test: DataFixture.CustomerComplainMenuRoundTrip
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerComplainMenuRoundTrip" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerComplainMenuRoundTrip" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerComplainMenuRoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerComplainMenuRoundTrip
+[       OK ] DataFixture.CustomerComplainMenuRoundTrip (23 ms)
+[----------] 1 test from DataFixture (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (24 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerComplainMenuRoundTrip" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerComplainMenuRoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/47 Testing: DataFixture.CustomerComplainWriteAndReview
+29/47 Test: DataFixture.CustomerComplainWriteAndReview
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerComplainWriteAndReview" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerComplainWriteAndReview" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerComplainWriteAndReview
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerComplainWriteAndReview
+[       OK ] DataFixture.CustomerComplainWriteAndReview (43 ms)
+[----------] 1 test from DataFixture (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (43 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerComplainWriteAndReview" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerComplainWriteAndReview" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/47 Testing: DataFixture.CustomerComplainUpdatePaths
+30/47 Test: DataFixture.CustomerComplainUpdatePaths
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.CustomerComplainUpdatePaths" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.CustomerComplainUpdatePaths" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.CustomerComplainUpdatePaths
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.CustomerComplainUpdatePaths
+[       OK ] DataFixture.CustomerComplainUpdatePaths (36 ms)
+[----------] 1 test from DataFixture (36 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.CustomerComplainUpdatePaths" end time: May 20 16:42 India Standard Time
+"DataFixture.CustomerComplainUpdatePaths" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/47 Testing: DataFixture.LoginMissingFileDoesNotLoop
+31/47 Test: DataFixture.LoginMissingFileDoesNotLoop
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.LoginMissingFileDoesNotLoop" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.LoginMissingFileDoesNotLoop" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.LoginMissingFileDoesNotLoop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.LoginMissingFileDoesNotLoop
+
+
+Sorry! An error occured while processing the data.
+[       OK ] DataFixture.LoginMissingFileDoesNotLoop (2 ms)
+[----------] 1 test from DataFixture (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.LoginMissingFileDoesNotLoop" end time: May 20 16:42 India Standard Time
+"DataFixture.LoginMissingFileDoesNotLoop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/47 Testing: DataFixture.ProfileMissingFileEndsServer
+32/47 Test: DataFixture.ProfileMissingFileEndsServer
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.ProfileMissingFileEndsServer" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.ProfileMissingFileEndsServer" start time: May 20 16:42 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.ProfileMissingFileEndsServer
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.ProfileMissingFileEndsServer
+<end of output>
+Test time = 509.73 sec
+----------------------------------------------------------
+Test Failed.
+"DataFixture.ProfileMissingFileEndsServer" end time: May 20 16:51 India Standard Time
+"DataFixture.ProfileMissingFileEndsServer" time elapsed: 00:08:29
+----------------------------------------------------------
+
+33/47 Testing: DataFixture.ProfileSendsRecord
+33/47 Test: DataFixture.ProfileSendsRecord
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.ProfileSendsRecord" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.ProfileSendsRecord" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.ProfileSendsRecord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.ProfileSendsRecord
+[       OK ] DataFixture.ProfileSendsRecord (20 ms)
+[----------] 1 test from DataFixture (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.ProfileSendsRecord" end time: May 20 16:51 India Standard Time
+"DataFixture.ProfileSendsRecord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/47 Testing: DataFixture.BuyExitsImmediately
+34/47 Test: DataFixture.BuyExitsImmediately
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyExitsImmediately" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyExitsImmediately" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyExitsImmediately
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyExitsImmediately
+[       OK ] DataFixture.BuyExitsImmediately (23 ms)
+[----------] 1 test from DataFixture (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyExitsImmediately" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyExitsImmediately" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/47 Testing: DataFixture.BuyNotEnoughStock
+35/47 Test: DataFixture.BuyNotEnoughStock
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyNotEnoughStock" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyNotEnoughStock" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyNotEnoughStock
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyNotEnoughStock
+[       OK ] DataFixture.BuyNotEnoughStock (23 ms)
+[----------] 1 test from DataFixture (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyNotEnoughStock" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyNotEnoughStock" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/47 Testing: DataFixture.BuyNoOrderCheckout
+36/47 Test: DataFixture.BuyNoOrderCheckout
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyNoOrderCheckout" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyNoOrderCheckout" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyNoOrderCheckout
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyNoOrderCheckout
+[       OK ] DataFixture.BuyNoOrderCheckout (10 ms)
+[----------] 1 test from DataFixture (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyNoOrderCheckout" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyNoOrderCheckout" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/47 Testing: DataFixture.BuyInsufficientFunds
+37/47 Test: DataFixture.BuyInsufficientFunds
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyInsufficientFunds" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyInsufficientFunds" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyInsufficientFunds
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyInsufficientFunds
+[       OK ] DataFixture.BuyInsufficientFunds (10 ms)
+[----------] 1 test from DataFixture (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyInsufficientFunds" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyInsufficientFunds" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/47 Testing: DataFixture.BuySuccessfulCustomerPrice
+38/47 Test: DataFixture.BuySuccessfulCustomerPrice
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuySuccessfulCustomerPrice" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuySuccessfulCustomerPrice" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuySuccessfulCustomerPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuySuccessfulCustomerPrice
+[       OK ] DataFixture.BuySuccessfulCustomerPrice (37 ms)
+[----------] 1 test from DataFixture (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (37 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuySuccessfulCustomerPrice" end time: May 20 16:51 India Standard Time
+"DataFixture.BuySuccessfulCustomerPrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/47 Testing: DataFixture.BuyEmployeeDiscountBranch
+39/47 Test: DataFixture.BuyEmployeeDiscountBranch
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyEmployeeDiscountBranch" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyEmployeeDiscountBranch" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyEmployeeDiscountBranch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyEmployeeDiscountBranch
+[       OK ] DataFixture.BuyEmployeeDiscountBranch (19 ms)
+[----------] 1 test from DataFixture (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyEmployeeDiscountBranch" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyEmployeeDiscountBranch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/47 Testing: DataFixture.BuyInitFailureWithoutGoodsFile
+40/47 Test: DataFixture.BuyInitFailureWithoutGoodsFile
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.BuyInitFailureWithoutGoodsFile" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.BuyInitFailureWithoutGoodsFile" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.BuyInitFailureWithoutGoodsFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.BuyInitFailureWithoutGoodsFile
+Sorry! An error occured while processing the data.
+[       OK ] DataFixture.BuyInitFailureWithoutGoodsFile (2 ms)
+[----------] 1 test from DataFixture (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.BuyInitFailureWithoutGoodsFile" end time: May 20 16:51 India Standard Time
+"DataFixture.BuyInitFailureWithoutGoodsFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/47 Testing: DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory
+41/47 Test: DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DataFixture
+[ RUN      ] DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory
+
+
+ An error occured[       OK ] DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory (4 ms)
+[----------] 1 test from DataFixture (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory" end time: May 20 16:51 India Standard Time
+"DataFixture.SignupTransferFailsWhenCustomerPathIsDirectory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/47 Testing: ComplaintFixture.BaseWriteUniqueAndDuplicate
+42/47 Test: ComplaintFixture.BaseWriteUniqueAndDuplicate
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.BaseWriteUniqueAndDuplicate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.BaseWriteUniqueAndDuplicate" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.BaseWriteUniqueAndDuplicate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.BaseWriteUniqueAndDuplicate
+[       OK ] ComplaintFixture.BaseWriteUniqueAndDuplicate (33 ms)
+[----------] 1 test from ComplaintFixture (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.BaseWriteUniqueAndDuplicate" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.BaseWriteUniqueAndDuplicate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/47 Testing: ComplaintFixture.BaseSeeSeenStatusAndUpdate
+43/47 Test: ComplaintFixture.BaseSeeSeenStatusAndUpdate
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.BaseSeeSeenStatusAndUpdate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.BaseSeeSeenStatusAndUpdate" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.BaseSeeSeenStatusAndUpdate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.BaseSeeSeenStatusAndUpdate
+[       OK ] ComplaintFixture.BaseSeeSeenStatusAndUpdate (43 ms)
+[----------] 1 test from ComplaintFixture (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (43 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.BaseSeeSeenStatusAndUpdate" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.BaseSeeSeenStatusAndUpdate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/47 Testing: ComplaintFixture.BaseUpdateBlockedWhenAnswered
+44/47 Test: ComplaintFixture.BaseUpdateBlockedWhenAnswered
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.BaseUpdateBlockedWhenAnswered" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.BaseUpdateBlockedWhenAnswered" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.BaseUpdateBlockedWhenAnswered
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.BaseUpdateBlockedWhenAnswered
+[       OK ] ComplaintFixture.BaseUpdateBlockedWhenAnswered (39 ms)
+[----------] 1 test from ComplaintFixture (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.BaseUpdateBlockedWhenAnswered" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.BaseUpdateBlockedWhenAnswered" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/47 Testing: ComplaintFixture.ComplaintCWriteReviewUpdate
+45/47 Test: ComplaintFixture.ComplaintCWriteReviewUpdate
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.ComplaintCWriteReviewUpdate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.ComplaintCWriteReviewUpdate" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.ComplaintCWriteReviewUpdate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.ComplaintCWriteReviewUpdate
+[       OK ] ComplaintFixture.ComplaintCWriteReviewUpdate (23 ms)
+[----------] 1 test from ComplaintFixture (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.ComplaintCWriteReviewUpdate" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.ComplaintCWriteReviewUpdate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/47 Testing: ComplaintFixture.ComplaintEViewAnswerClear
+46/47 Test: ComplaintFixture.ComplaintEViewAnswerClear
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.ComplaintEViewAnswerClear" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.ComplaintEViewAnswerClear" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.ComplaintEViewAnswerClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.ComplaintEViewAnswerClear
+[       OK ] ComplaintFixture.ComplaintEViewAnswerClear (24 ms)
+[----------] 1 test from ComplaintFixture (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.ComplaintEViewAnswerClear" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.ComplaintEViewAnswerClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/47 Testing: ComplaintFixture.ComplaintCReviewWhenMissing
+47/47 Test: ComplaintFixture.ComplaintCReviewWhenMissing
+Command: "C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test/unit_tests.exe" "--gtest_filter=ComplaintFixture.ComplaintCReviewWhenMissing" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/Prathemesh/Desktop/Repository/Cpp/build/test_workdir
+"ComplaintFixture.ComplaintCReviewWhenMissing" start time: May 20 16:51 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Users/Prathemesh/Desktop/Repository/Cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ComplaintFixture.ComplaintCReviewWhenMissing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ComplaintFixture
+[ RUN      ] ComplaintFixture.ComplaintCReviewWhenMissing
+ You have not registered any complaint so far
+[       OK ] ComplaintFixture.ComplaintCReviewWhenMissing (2 ms)
+[----------] 1 test from ComplaintFixture (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"ComplaintFixture.ComplaintCReviewWhenMissing" end time: May 20 16:51 India Standard Time
+"ComplaintFixture.ComplaintCReviewWhenMissing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 20 16:51 India Standard Time

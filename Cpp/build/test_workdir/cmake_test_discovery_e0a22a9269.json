@@ -1,0 +1,367 @@
+{
+  "tests": 65,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ServerCoverage",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "GetActivityReadsClientsFile",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 29
+        },
+        {
+          "name": "GetActivityMissingFileReturnsEmpty",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 40
+        },
+        {
+          "name": "CloseSocketDoesNotThrow",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 48
+        },
+        {
+          "name": "StartInitializesWinsock",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 58
+        },
+        {
+          "name": "DestructorClosesAfterStart",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 65
+        },
+        {
+          "name": "UpdateActivityAppendsClientsFile",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "name": "ThreadCoverage",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "SendRecCodePathsExecute",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 106
+        },
+        {
+          "name": "CreateCloseAndStateFlags",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_server_thread.cpp",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "name": "ThreadState",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "InitiallyAvailable",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_thread_smoke.cpp",
+          "line": 5
+        },
+        {
+          "name": "SetFreeMarksDestroyed",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_thread_smoke.cpp",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "name": "AdminFixture",
+      "tests": 29,
+      "testsuite": [
+        {
+          "name": "StockRejectsUnknownProduct",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 76
+        },
+        {
+          "name": "StockRestockHappyPath",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 93
+        },
+        {
+          "name": "StockUpdatePriceBranch",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 111
+        },
+        {
+          "name": "StockDefaultBranchNoOp",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 130
+        },
+        {
+          "name": "StockRestockRejectedWhenCashTooLow",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 144
+        },
+        {
+          "name": "AccountsThroughHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 162
+        },
+        {
+          "name": "ViewCustomerFile",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 181
+        },
+        {
+          "name": "AddEmployeeFlow",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 200
+        },
+        {
+          "name": "SearchCustomerNotFound",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 228
+        },
+        {
+          "name": "SearchEmployeeByCnicFound",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 250
+        },
+        {
+          "name": "DeleteCustomerRecord",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 272
+        },
+        {
+          "name": "BalanceUpdateTrue",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 293
+        },
+        {
+          "name": "BalanceUpdateFalseWhenUserMissing",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 314
+        },
+        {
+          "name": "GetActivityCase",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 335
+        },
+        {
+          "name": "EndServerCase",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 352
+        },
+        {
+          "name": "ComplainShortcutExitFromAdminHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 367
+        },
+        {
+          "name": "EmployeeHomeDefaultThenExit",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 383
+        },
+        {
+          "name": "EmployeeLoginBuyExit",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 396
+        },
+        {
+          "name": "EmployeeComplainSeeFalse",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 424
+        },
+        {
+          "name": "EmployeeComplainSeeTrueAndAnswer",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 440
+        },
+        {
+          "name": "EmployeeComplainCaseTwoPending",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 464
+        },
+        {
+          "name": "EmployeeComplainInvalidChoice",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 480
+        },
+        {
+          "name": "AdminBuyAndProfileThroughHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 493
+        },
+        {
+          "name": "ViewEmployeeFileThroughHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 514
+        },
+        {
+          "name": "SearchCustomerByEmail",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 533
+        },
+        {
+          "name": "DeleteEmployeeRecord",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 555
+        },
+        {
+          "name": "BalanceEmployeeTrue",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 576
+        },
+        {
+          "name": "StockInitFailure",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 597
+        },
+        {
+          "name": "ViewCustomerFileOpenFails",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_admin_employee.cpp",
+          "line": 604
+        }
+      ]
+    },
+    {
+      "name": "DataFixture",
+      "tests": 20,
+      "testsuite": [
+        {
+          "name": "CustomerStartExit",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 77
+        },
+        {
+          "name": "CustomerLoginThenExitHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 85
+        },
+        {
+          "name": "CustomerSignupSuccess",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 103
+        },
+        {
+          "name": "CustomerProfileFromHome",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 124
+        },
+        {
+          "name": "CustomerComplainMenuRoundTrip",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 143
+        },
+        {
+          "name": "CustomerComplainWriteAndReview",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 159
+        },
+        {
+          "name": "CustomerComplainUpdatePaths",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 187
+        },
+        {
+          "name": "LoginMissingFileDoesNotLoop",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 209
+        },
+        {
+          "name": "ProfileMissingFileEndsServer",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 216
+        },
+        {
+          "name": "ProfileSendsRecord",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 225
+        },
+        {
+          "name": "BuyExitsImmediately",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 244
+        },
+        {
+          "name": "BuyNotEnoughStock",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 261
+        },
+        {
+          "name": "BuyNoOrderCheckout",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 297
+        },
+        {
+          "name": "BuyInsufficientFunds",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 317
+        },
+        {
+          "name": "BuySuccessfulCustomerPrice",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 340
+        },
+        {
+          "name": "BuyTriggersAutomaticReorder",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 363
+        },
+        {
+          "name": "BuyEmployeeDiscountBranch",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 400
+        },
+        {
+          "name": "BuyInitFailureWithoutGoodsFile",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 423
+        },
+        {
+          "name": "CustomerComplainWriteDuplicateReturnsFalse",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 431
+        },
+        {
+          "name": "SignupTransferFailsWhenCustomerPathIsDirectory",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_person_flows.cpp",
+          "line": 455
+        }
+      ]
+    },
+    {
+      "name": "ComplaintFixture",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "BaseWriteUniqueAndDuplicate",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 40
+        },
+        {
+          "name": "BaseSeeSeenStatusAndUpdate",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 57
+        },
+        {
+          "name": "BaseUpdateBlockedWhenAnswered",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 73
+        },
+        {
+          "name": "ComplaintCWriteReviewUpdate",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 86
+        },
+        {
+          "name": "ComplaintEViewAnswerClear",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 100
+        },
+        {
+          "name": "ComplaintCReviewWhenMissing",
+          "file": "C:\/Users\/Prathemesh\/Desktop\/Repository\/Cpp\/test\/test_complaint.cpp",
+          "line": 125
+        }
+      ]
+    }
+  ]
+}
