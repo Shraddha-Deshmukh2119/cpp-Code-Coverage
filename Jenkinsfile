@@ -35,49 +35,12 @@ pipeline {
         // =========================
         stage('Clone Repository') {
 
-    steps {
+            steps {
 
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-
-        stage('Clone Repository') {
-
-    steps {
-
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-        stage('Clone Repository') {
-
-    steps {
-
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-        stage('Clone Repository') {
-
-    steps {
-
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-        stage('Clone Repository') {
-
-    steps {
-
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-        stage('Clone Repository') {
-
-    steps {
-
-        echo "Repository already cloned by Jenkins SCM."
-    }
-}
-
-        // =========================
+                echo "Repository already cloned by Jenkins SCM."
+            }
+        }
+      // =========================
         // JAVA BUILD
         // =========================
         stage('Java Build & Coverage') {
