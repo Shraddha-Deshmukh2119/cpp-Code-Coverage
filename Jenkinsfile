@@ -135,15 +135,41 @@ pipeline {
         // ============================================
         // CPP BUILD + TEST + COVERAGE
         // ===========================================
-        stage('CPP Build & Coverage') {
+                                    stage('CPP Build & Coverage') {
 
-            steps {
+    environment {
 
-                dir("${CPP_PROJECT}") {
+        CMAKE_EXE = 'C:\\Program Files\\CMake\\bin\\cmake.exe'
+
+        CTEST_EXE = 'C:\\msys64\\mingw64\\bin\\ctest.exe'
+
+        GCOVR_EXE = 'C:\\Users\\Prathemesh\\AppData\\Roaming\\Python\\Python313\\Scripts\\gcovr.exe'
+    }
+
+    steps {
+
+        dir("${CPP_PROJECT}") {
 
             bat """
+            echo ======================================
             echo CURRENT CPP DIRECTORY
+            echo ======================================
+
             cd
+
+            echo ======================================
+            echo VERIFY TOOLS
+            echo ======================================
+
+            "%CMAKE_EXE%" --version
+
+            "%CTEST_EXE%" --version
+
+            "%GCOVR_EXE%" --version
+
+            echo ======================================
+            echo CLEAN OLD BUILD
+            echo ======================================
 
             if exist build rmdir /s /q build
 
@@ -151,15 +177,41 @@ pipeline {
 
             cd build
 
+            echo ======================================
+            echo RUN CMAKE
+            echo ======================================
+
             "%CMAKE_EXE%" ..
+
+            echo ======================================
+            echo BUILD CPP PROJECT
+            echo ======================================
 
             "%CMAKE_EXE%" --build .
 
+            echo ======================================
+            echo RUN TESTS
+            echo ======================================
+
             "%CTEST_EXE%" --output-on-failure
+
+            echo ======================================
+            echo GENERATE XML COVERAGE
+            echo ======================================
 
             "%GCOVR_EXE%" -x -o coverage.xml
 
+            echo ======================================
+            echo GENERATE JSON COVERAGE
+            echo ======================================
+
             "%GCOVR_EXE%" --json -o coverage.json
+
+            echo ======================================
+            echo VERIFY GENERATED FILES
+            echo ======================================
+
+            dir
             """
         }
     }
