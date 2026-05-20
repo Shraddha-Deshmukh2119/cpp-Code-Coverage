@@ -16,6 +16,11 @@ pipeline {
         PYTHON_PARSER = "parser/parser.py"
 
         SONAR_TOKEN = credentials('sonar-token')
+        CMAKE_EXE = 'C:\\Program Files\\CMake\\bin\\cmake.exe'
+
+        CTEST_EXE = 'C:\\Program Files\\CMake\\bin\\ctest.exe'
+
+        GCOVR_EXE = 'C:\\Program Files\\Python313\\Scripts\\gcovr.exe'
     }
 
     stages {
@@ -129,36 +134,36 @@ pipeline {
 
         // ============================================
         // CPP BUILD + TEST + COVERAGE
-        // ============================================
+        // ===========================================
         stage('CPP Build & Coverage') {
 
             steps {
 
                 dir("${CPP_PROJECT}") {
 
-                    bat """
-                    echo CURRENT CPP DIRECTORY
-                    cd
+            bat """
+            echo CURRENT CPP DIRECTORY
+            cd
 
-                    if exist build rmdir /s /q build
+            if exist build rmdir /s /q build
 
-                    mkdir build
+            mkdir build
 
-                    cd build
+            cd build
 
-                    cmake ..
+            "%CMAKE_EXE%" ..
 
-                    cmake --build .
+            "%CMAKE_EXE%" --build .
 
-                    ctest --output-on-failure
+            "%CTEST_EXE%" --output-on-failure
 
-                    gcovr -x -o coverage.xml
+            "%GCOVR_EXE%" -x -o coverage.xml
 
-                    gcovr --json -o coverage.json
-                    """
-                }
-            }
+            "%GCOVR_EXE%" --json -o coverage.json
+            """
         }
+    }
+}
 
         // ============================================
         // VERIFY CPP ARTIFACTS
