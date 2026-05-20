@@ -3,7 +3,8 @@ project(OnlineShoppingSystem CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} --coverage")
 set(SHOPPING_SERVER_DIR ${CMAKE_SOURCE_DIR}/online-shopping-system/Server/Headers)
 
 set(SHOPPING_SOURCES
