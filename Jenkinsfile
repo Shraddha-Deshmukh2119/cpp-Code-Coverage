@@ -35,11 +35,47 @@ pipeline {
         // =========================
         stage('Clone Repository') {
 
-            steps {
-                git branch: 'main',
-                url: 'https://github.com/Prathamesh-Jawahire/java.git'
-            }
-        }
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
+
+        stage('Clone Repository') {
+
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
+        stage('Clone Repository') {
+
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
+        stage('Clone Repository') {
+
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
+        stage('Clone Repository') {
+
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
+        stage('Clone Repository') {
+
+    steps {
+
+        echo "Repository already cloned by Jenkins SCM."
+    }
+}
 
         // =========================
         // JAVA BUILD
