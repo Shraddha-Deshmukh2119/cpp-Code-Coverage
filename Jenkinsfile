@@ -71,7 +71,7 @@ pipeline {
                         bat """
                         mvn sonar:sonar ^
                         -Dsonar.projectKey=bmc-java ^
-                        -Dsonar.organization=Prathamesh-Jawahire ^
+                        -Dsonar.organization=prathamesh-jawahire ^
                         -Dsonar.host.url=https://sonarcloud.io ^
                         -Dsonar.token=%SONAR_TOKEN% ^
                         -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
