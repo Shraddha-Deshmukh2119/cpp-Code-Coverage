@@ -1,0 +1,25 @@
+# Java
+target/
+*.class
+*.jar
+
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
+jacoco.exec
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
